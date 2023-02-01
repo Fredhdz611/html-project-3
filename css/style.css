@@ -41,6 +41,7 @@ a {
 }
 h1, h2, h3, h4 {
   font-family: var(--headingFont);
+  line-height: 1.2;
 }
 h1 {
   font-size: 4.8rem;
@@ -152,4 +153,28 @@ img {
 }
 .btn--primary {
   background-color: var(--black);
+}
+.btn--secondary {
+  background-color: var(--primary);
+}
+.courses {
+  list-style: none;
+}
+.widget-curso{
+  border-bottom: 1px solid var(--ligthGrey);
+  margin-bottom: 2rem;
+}
+.widget-curso:last-of-type {
+  border: none;
+  margin-bottom: 0;
+}
+.widget-curso__label {
+  font-family: var(--headingFont);
+  font-weight: 700;
+}
+.widget-curso__info {
+  font-weight: 400;
+}
+.widget-curso__label, .widget-curso__info {
+  font-size: 2rem;
 }
