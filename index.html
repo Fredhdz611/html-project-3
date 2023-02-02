@@ -23,7 +23,6 @@
     />
     <link rel="preload" href="/css/style.css" as="style" />
     <link rel="stylesheet" href="/css/style.css" />
-    <link rel="preload" href="img/blog1.jpg" as="image" />
     <title>Blog Cafe</title>
   </head>
   <body>
@@ -54,7 +53,14 @@
         <h3>Nuestro Blog</h3>
         <article class="post">
           <div class="post__img">
-            <img loading="lazy" src="img/blog1.jpg" alt="Image blog" />
+            <picture>
+              <source
+                loading="lazy"
+                srcset="img/blog1.webp"
+                type="image/webp"
+              />
+              <img loading="lazy" src="img/blog1.jpg" alt="Image blog" />
+            </picture>
           </div>
           <div class="post__content">
             <h4 class="no-margin">Tipos de Granos de Café</h4>
@@ -70,7 +76,14 @@
         </article>
         <article class="post">
           <div class="post__img">
-            <img loading="lazy" src="img/blog2.jpg" alt="Image blog" />
+            <picture>
+              <source
+                loading="lazy"
+                srcset="img/blog2.webp"
+                type="image/webp"
+              />
+              <img loading="lazy" src="img/blog2.jpg" alt="Image blog" />
+            </picture>
           </div>
           <div class="post__content">
             <h4 class="no-margin">3 Deliciosas Recetas de Café</h4>
@@ -86,7 +99,14 @@
         </article>
         <article class="post">
           <div class="post__img">
-            <img loading="lazy" src="img/blog3.jpg" alt="Image blog" />
+            <picture>
+              <source
+                loading="lazy"
+                srcset="img/blog3.webp"
+                type="image/webp"
+              />
+              <img loading="lazy" src="img/blog3.jpg" alt="Image blog" />
+            </picture>
           </div>
           <div class="post__content">
             <h4 class="no-margin">Beneficios del Café</h4>
