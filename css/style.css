@@ -148,6 +148,10 @@ img {
   text-transform: uppercase;
   font-weight: 700;
   margin-bottom: 2rem;
+  border: none;
+}
+.btn:hover {
+  cursor: pointer;
 }
 @media ( min-width: 768px ) {
   .btn {
@@ -234,4 +238,38 @@ img {
     grid-template-columns: 1fr 2fr;
     column-gap: 2rem;
   }
+}
+
+/* Contacto */
+.contact-bg {
+  background-image: url(../img/contacto.jpg);
+  /* Para que se vea en el div vacio se debe asignar una altura. */
+  height: 40rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.form {
+  background-color: var(--withe);
+  margin: -5rem auto 0 auto;
+  width: 95%;
+  padding: 5rem;
+}
+.field {
+  display: flex;
+  margin-bottom: 2rem;
+  gap: 2rem;
+}
+.field__label {
+  flex: 0 0 9rem;
+  text-align: right;
+}
+.field__input {
+  flex: 1;
+  border: 1px solid var(--ligthGrey);
+}
+.field__input--textarea {
+  height: 20rem;
+}
+.field--btn {
+  margin-top: 4rem;
 }
