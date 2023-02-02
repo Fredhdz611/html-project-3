@@ -190,3 +190,32 @@ img {
   padding-bottom: 3rem;
   margin-top: 4rem;
 }
+
+/* Sobre nosotros */
+@media ( min-width: 768px ) {
+  .about-us {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+  }
+  /*Another alternative option 1*/
+  /* .about-us {
+    display: flex;
+    justify-content: space-between;
+  }
+  .about-us__img, .about-us__txt {
+    flex-basis: calc(50% - 1rem);
+  } */
+  /*Another alternative option 2*/
+  /* .about-us {
+    display: flex;
+    justify-content: space-between;
+  } */
+  /* .about-us__img{
+      flex: factorDeCrecimiento NoSeHaraMasPeq baseATomar 
+    flex: 0 0 calc(50% - 1rem);
+  } */
+  /* .about-us__txt {
+    flex: 0 0 0 calc(50% - 1rem);
+  } */
+}
